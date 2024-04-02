@@ -12,14 +12,15 @@ this is a interactive tool for single cell phenotyping, can make infinite tiers 
 
 ## Installation
 To set up the environment for this project, follow these steps:
-```bash
-
-
-% conda create --name st python=3.9
 
 in current file path:
-poppler is needed for PDF conver to png
-% conda install -c conda-forge poppler
-% pip install -r requirements.txt
+```bash
 
-% streamlit run st_cluster_v3.py
+gitclone https://github.com/Mengxicici/streamlit_for_infinite_TierCluster.git
+
+
+conda create --name st python=3.9
+conda install -c conda-forge poppler
+pip install -r requirements.txt
+
+streamlit run st_cluster_v3.py
