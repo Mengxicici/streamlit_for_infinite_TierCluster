@@ -200,7 +200,7 @@ s3fs==2023.1.0
 scikit-image==0.19.3
 scikit-learn==1.2.1
 scikit-misc==0.2.0
-scimap
+scimap==1.3.0
 seaborn
 semver==3.0.2
 Send2Trash==1.8.2
