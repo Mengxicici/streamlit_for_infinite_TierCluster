@@ -1,6 +1,8 @@
 
 # interactive tool for single cell phenotyping
 
+https://appforinfinitetiercluster-ajoxhaf28kdvklco7zkuj7.streamlit.app/
+
 ## Overview
 this is a interactive tool for single cell phenotyping, can make infinite tiers of clustering based on selected marker intensity and morphology features (extracted from single cell segmentation results), the input is supposed to be anndata .pkl file, the satisfied clustering setting will be saved in .yaml file, and the output file will be .pkl file.
 
